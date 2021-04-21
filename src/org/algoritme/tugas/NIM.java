@@ -1,4 +1,4 @@
-package org.pemrogramanlanjut.algoritme.tugas;
+package org.algoritme.tugas;
 
 import java.util.Scanner;
 
