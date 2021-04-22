@@ -104,7 +104,7 @@ public class NIM {
         System.out.print("Masukkan Digit ke-5 dan ke-6 dari NIM : ");
         jurusan1.d = input.nextInt();
 
-        if (jurusan1.d == 1){
+        if (jurusan1.d == 01){
             System.out.println("Jurusan : " + "Teknik Informatika");
         }
         else if (jurusan1.d == 02){
