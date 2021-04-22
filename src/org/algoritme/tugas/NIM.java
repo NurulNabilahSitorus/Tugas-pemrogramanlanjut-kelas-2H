@@ -107,16 +107,16 @@ public class NIM {
         if (jurusan1.d == 1){
             System.out.println("Jurusan : " + "Teknik Informatika");
         }
-        else if (jurusan1.d == 2){
+        else if (jurusan1.d == 02){
             System.out.println("Jurusan : " + "Teknik Industri");
         }
-        else if (jurusan1.d == 3){
+        else if (jurusan1.d == 03){
             System.out.println("Jurusan : " + "Sistem Informasi");
         }
-        else if (jurusan1.d == 4){
+        else if (jurusan1.d == 04){
             System.out.println("Jurusan : " + "Matematika");
         }
-        else if (jurusan1.d == 5){
+        else if (jurusan1.d == 05){
             System.out.println("Jurusan : " + "Teknik Elektro");
         }
         else {
