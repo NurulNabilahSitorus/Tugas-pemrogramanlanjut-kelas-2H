@@ -1,4 +1,4 @@
-package org.PemrogramanLanjut2H.JavaGUI.tugas;
+package org.Tugas.PemrogramanLanjut2H;
 
 public class Mahasiswa {
     private String nama;

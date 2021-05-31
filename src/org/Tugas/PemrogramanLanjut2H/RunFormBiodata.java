@@ -1,4 +1,6 @@
-package org.PemrogramanLanjut2H.JavaGUI.tugas;
+package org.Tugas.PemrogramanLanjut2H;
+
+import org.Tugas.PemrogramanLanjut2H.JavaGUI.FormBiodata;
 
 import javax.swing.*;
 
