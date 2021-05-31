@@ -34,7 +34,7 @@ public class NIM {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Masukkan NIM = ");
+        System.out.print("Masukkan NIM : ");
         String nim = input.nextLine();
 
         // instansiasi / membuat object dari class JenjangPendidikan
