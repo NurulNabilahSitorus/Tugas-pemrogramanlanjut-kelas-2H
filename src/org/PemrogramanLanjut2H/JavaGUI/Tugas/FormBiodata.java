@@ -1,6 +1,6 @@
-package org.Tugas.PemrogramanLanjut2H.JavaGUI;
+package org.PemrogramanLanjut2H.JavaGUI.Tugas;
 
-import org.Tugas.PemrogramanLanjut2H.Mahasiswa;
+import org.PemrogramanLanjut2H.JavaGUI.Tugas.Mahasiswa;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
