@@ -1,4 +1,4 @@
-package org.JavaGUI.tugas;
+package org.PemrogramanLanjut2H.JavaGUI.tugas;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

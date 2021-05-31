@@ -1,4 +1,4 @@
-package org.algoritme.tugas;
+package org.PemrogramanLanjut2H.algoritme.tugas;
 
 import java.util.Scanner;
 

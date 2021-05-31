@@ -1,4 +1,4 @@
-package org.JavaGUI.tugas;
+package org.PemrogramanLanjut2H.JavaGUI.tugas;
 
 public class Mahasiswa {
     private String nama;
