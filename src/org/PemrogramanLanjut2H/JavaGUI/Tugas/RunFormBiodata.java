@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class RunFormBiodata {
     public static void main(String[] args) {
-        JFrame jFrame = new JFrame("BIODATA MAHASISWA BERDASARKAN NIM");
+        JFrame jFrame = new JFrame("FORM BIODATA MAHASISWA BERDASARKAN NIM");
         jFrame.setContentPane(new FormBiodata().getRootPanel());
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jFrame.setLocationRelativeTo(null);
