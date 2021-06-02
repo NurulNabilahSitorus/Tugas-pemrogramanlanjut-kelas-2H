@@ -13,7 +13,7 @@
           <grid row="0" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="FORMULIR BIODATA MAHASISWA BERDASARKAN NIM"/>
+          <text value="BIODATA MAHASISWA BERDASARKAN NIM"/>
         </properties>
       </component>
       <vspacer id="6a89b">
