@@ -1,4 +1,4 @@
-package org.PemrogramanLanjut2H.Sorting;
+package org.PemrogramanLanjut2H.Sorting.tugas;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;

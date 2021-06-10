@@ -1,4 +1,4 @@
-package org.PemrogramanLanjut2H.Sorting;
+package org.PemrogramanLanjut2H.Sorting.tugas;
 
 public class DataSorting {
     public static int[] getascen(String text, int jumlah){
