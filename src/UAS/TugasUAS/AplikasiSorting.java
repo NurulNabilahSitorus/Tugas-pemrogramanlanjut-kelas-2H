@@ -1,4 +1,4 @@
-package org.PemrogramanLanjut2H.TugasUAS;
+package UAS.TugasUAS;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
