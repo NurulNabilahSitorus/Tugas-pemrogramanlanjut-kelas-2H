@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.PemrogramanLanjut2H.TugasUAS.AplikasiSorting">
+  <grid id="27dc6" binding="nolPanel" layout-manager="GridLayoutManager" row-count="10" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="30" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="595" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-8388652"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d67ae" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="293" height="21"/>
+            <preferred-size width="293" height="21"/>
+            <maximum-size width="293" height="21"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0"/>
+          <alignmentY value="1.0"/>
+          <font name="Tahoma" size="20" style="1"/>
+          <text value="Aplikasi Sortir Angka"/>
+        </properties>
+      </component>
+      <vspacer id="daceb">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="11179" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="201" height="21"/>
+            <preferred-size width="201" height="21"/>
+            <maximum-size width="201" height="21"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0"/>
+          <alignmentY value="1.0"/>
+          <font name="Tahoma" size="20" style="0"/>
+          <text value="Input Angka Disini :"/>
+        </properties>
+      </component>
+      <component id="d0a1c" class="javax.swing.JTextField" binding="textField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="283" height="34"/>
+            <preferred-size width="283" height="34"/>
+            <maximum-size width="283" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0"/>
+          <alignmentY value="1.0"/>
+          <autoscrolls value="false"/>
+          <font name="Tahoma" size="19" style="0"/>
+        </properties>
+      </component>
+      <component id="7487c" class="javax.swing.JButton" binding="OKButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="169" height="34"/>
+            <preferred-size width="169" height="34"/>
+            <maximum-size width="169" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0"/>
+          <alignmentY value="1.0"/>
+          <autoscrolls value="false"/>
+          <font name="Tahoma" size="14" style="0"/>
+          <text value="OK"/>
+        </properties>
+      </component>
+      <component id="ffe27" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="332" height="21"/>
+            <preferred-size width="332" height="21"/>
+            <maximum-size width="332" height="21"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0"/>
+          <alignmentY value="1.0"/>
+          <font name="Tahoma" size="15" style="0"/>
+          <text value="(* Setiap angka dipisah spasi"/>
+        </properties>
+      </component>
+      <component id="d97ea" class="javax.swing.JButton" binding="acButton">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="169" height="34"/>
+            <preferred-size width="169" height="34"/>
+            <maximum-size width="169" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0"/>
+          <alignmentY value="1.0"/>
+          <font name="Tahoma" size="14" style="0"/>
+          <text value="All Clear"/>
+        </properties>
+      </component>
+      <hspacer id="60ff1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="f873" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="169" height="34"/>
+            <preferred-size width="169" height="34"/>
+            <maximum-size width="169" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0"/>
+          <alignmentY value="1.0"/>
+          <font name="Tahoma" size="14" style="0"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <scrollpane id="9f2c0">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="1081f" class="javax.swing.JLabel" binding="hasilJLabel">
+            <constraints/>
+            <properties>
+              <alignmentX value="1.0"/>
+              <alignmentY value="1.0"/>
+              <font name="Tahoma" size="18" style="0"/>
+              <text value=""/>
+              <verticalAlignment value="1"/>
+              <verticalTextPosition value="1"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="a1068" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="283" height="28"/>
+            <preferred-size width="283" height="28"/>
+            <maximum-size width="283" height="28"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="0"/>
+          <text value="Hasil :"/>
+        </properties>
+      </component>
+      <hspacer id="1d583">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
