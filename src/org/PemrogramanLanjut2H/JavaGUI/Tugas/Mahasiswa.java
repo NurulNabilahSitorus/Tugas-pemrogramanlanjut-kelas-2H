@@ -27,6 +27,7 @@ public class Mahasiswa {
     public void setNim(String nim) {
         this.nim = nim;
     }
+
     public String getJenjangPendidikan() {
         char kodeJP = nim.charAt(0);
         if (kodeJP == '1') {

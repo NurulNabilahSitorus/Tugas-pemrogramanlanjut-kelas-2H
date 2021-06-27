@@ -23,10 +23,13 @@ public class Jtable {
         buttonsort.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
                 DefaultTableModel model = (DefaultTableModel) tablehasil.getModel();
                 String jumlah2 = textangka2.getText();
-                int jumlah = Integer.parseInt(textangka.getText());
                 String angka = textangka2.getText();
+
+                int jumlah = Integer.parseInt(textangka.getText());
+
 
                 if (textangka.getText().isEmpty()) {
                     JOptionPane.showMessageDialog(Panel1,
@@ -49,8 +52,8 @@ public class Jtable {
                 }else{
                     model.addRow(new Object[]{jumlah2,angka});
                     //clear textfield
-                    textangka.setText("");
-                    textangka2.setText("");
+                    textangka.setText(" ");
+                    textangka2.setText(" ");
                 }
                 int a = 0;
                 for (int i : DataSorting.getascen(angka, jumlah)){
