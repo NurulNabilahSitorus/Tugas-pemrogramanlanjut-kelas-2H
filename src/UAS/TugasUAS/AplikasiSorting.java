@@ -45,7 +45,7 @@ public class AplikasiSorting {
                     }
                 }
 
-                // convert array to string
+                // konversi array ke string
                 String string = Arrays.toString(arrInt);    // hasil yang telah dieksekusi tadi dikonversi ke bentuk data string
                 // Hasil
                 hasilJLabel.setText(string);    // hasil output pada program ini akan tampil di form java GUI
@@ -61,7 +61,7 @@ public class AplikasiSorting {
             }
         });
 
-        exitButton.addActionListener(new ActionListener() { // sebuah interaksi yang dilakukan pada tombol di aplikasi untuk akan keluar dari aplikasi tersebut jika menekan tombolnya
+        exitButton.addActionListener(new ActionListener() { // sebuah interaksi yang dilakukan pada tombol di aplikasi untuk akan keluar dari aplikasi tersebut setelah menekan tombolnya
             @Override   // kemampuan sebuah kode program untuk membuat subclass di dalam class AplikasiSorting
             public void actionPerformed(ActionEvent e) {    // sebuah method yang dapat diakses oleh objek lain, tetapi tidak dapat mengembalikan nilai
 
