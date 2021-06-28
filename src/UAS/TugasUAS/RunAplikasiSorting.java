@@ -3,8 +3,8 @@ package UAS.TugasUAS;
 import javax.swing.*;
 
 
-public class RunAplikasiSorting {   // kelas atau method yang dapat diakses dari kelas manapun
-    public static void main(String[] args) {    // perintah untuk menjalankan program java
+public class RunAplikasiSorting {
+    public static void main(String[] args) {
 
         try {
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());

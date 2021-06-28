@@ -6,18 +6,18 @@ import java.awt.event.ActionListener;
 import java.util.Arrays;
 
 public class AplikasiSorting {
-    private JTextField textField;   // sebuah konstruktor JTextField dari form aplikasi java GUI yang hanya bisa diakses di dalam class AplikasiSorting
-    private JButton OKButton;   // sebuah konstruktor JButton dari form aplikasi java GUI yang hanya bisa diakses di dalam class AplikasiSorting
-    private JButton deleteButton;   // sebuah konstruktor JButton dari form aplikasi java GUI hanya bisa diakses di dalam class AplikasiSorting
-    private JButton exitButton; // sebuah konstruktor JButton dari form aplikasi java GUI yang hanya bisa diakses di dalam class AplikasiSorting
-    private JPanel nolPanel;    // sebuah konstruktor JPanel dari form aplikasi java GUI yang hanya bisa diakses di dalam class AplikasiSorting
-    private JLabel hasilJLabel; // sebuah konstruktor JLabel dari form aplikasi java GUI yang hanya bisa diakses di dalam class AplikasiSorting
+    private JTextField textField;
+    private JButton OKButton;
+    private JButton deleteButton;
+    private JButton exitButton;
+    private JPanel nolPanel;
+    private JLabel hasilJLabel;
 
 
-    public AplikasiSorting() {  // sebuah method khusus yang berisi objek-objek yang akan dieksekusi
-        OKButton.addActionListener(new ActionListener() {   // sebuah interaksi yang dilakukan pada tombol di aplikasi untuk menjalankan proses dan menampilkan hasilnya setelah menekan tombolnya
-            @Override   // kemampuan sebuah kode program untuk membuat subclass di dalam class AplikasiSorting
-            public void actionPerformed(ActionEvent e) {    // sebuah method yang dapat diakses oleh objek lain, tetapi tidak dapat mengembalikan nilai
+    public AplikasiSorting() {
+        OKButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
 
                 String angka =  textField.getText();    // proses mendeklarasi dan menginisialisasi variabel sekaligus dan mengambil data dari textfield pada form java GUI
 
@@ -37,7 +37,7 @@ public class AplikasiSorting {
                     for (int j = 0; j < n-i-1; j++) {   // memeriksa kondisi terlebih dahulu, lalu mengeksekusi program yang akan diurutkan datanya dalam bentuk int
                         if (arrInt[j] > arrInt[j+1]) {  // program akan membandingkan data ke-j dengan data ke-(j+1) guna mengurutkan data secara ascending
 
-                            // swap arr[j+1] and arr[j]
+                            // menukar arr[j+1] dan arr[j]
                             int baru = arrInt[j]; // menukarkan variabel j tadi ke variabel baru
                             arrInt[j] = arrInt[j+1];    // menukarkan variabel (j+1) ke variabel j
                             arrInt[j+1] = baru; // menukarkan variabel yang baru ke variabel (j+1)
@@ -54,7 +54,7 @@ public class AplikasiSorting {
 
         deleteButton.addActionListener(new ActionListener() {   // sebuah interaksi yang dilakukan pada tombol di aplikasi untuk membersihkan atau menghapus hasil output dan juga me-reset data terakhir yang telah diinput setelah menekan tombolnya
             @Override
-            public void actionPerformed(ActionEvent e) {    // sebuah method yang dapat diakses oleh objek lain, tetapi tidak dapat mengembalikan nilai
+            public void actionPerformed(ActionEvent e) {
                 textField.setText("");  // program akan menjalankan perintah untuk mengosongkan data yang telah diinput
                 hasilJLabel.setText("");    // program akan menjalankan perintah untuk mengosongkan hasil output
                 textField.requestFocus();   // jika sudah diproses, maka kode tersebut akan mengarahkan kursor ke posisi textField
@@ -62,8 +62,8 @@ public class AplikasiSorting {
         });
 
         exitButton.addActionListener(new ActionListener() { // sebuah interaksi yang dilakukan pada tombol di aplikasi untuk akan keluar dari aplikasi tersebut setelah menekan tombolnya
-            @Override   // kemampuan sebuah kode program untuk membuat subclass di dalam class AplikasiSorting
-            public void actionPerformed(ActionEvent e) {    // sebuah method yang dapat diakses oleh objek lain, tetapi tidak dapat mengembalikan nilai
+            @Override
+            public void actionPerformed(ActionEvent e) {
 
                 System.exit(0); // sebuah parameter exit, jika dijalankan program eksekusi berjalan baik
 
@@ -71,7 +71,7 @@ public class AplikasiSorting {
         });
     }
 
-    public JPanel getNolPanel() {   // sebuah method khusus yang berisi objek-objek yang akan dieksekusi
+    public JPanel getNolPanel() {
 
         return nolPanel;    // mengembalikan nolPanel ke objek lain
     }
